@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-image: url("knit.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  position: relative;
+}
+/*.cartheader {
+    background-image: url("Shop.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    position: relative;
+    color: darkblue;
+  }8
+  */
+
+.navbar-style {
+  box-shadow: 0 5px 10px grey;
+  text-transform: uppercase;
+  height: 150px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 120px;
+  padding: 2px 10px;
+}
+
+.icon-bar {
+  background: purple;
+}
+
+nav li span {
+  padding: 5px;
+}
+
+/* navigation bar color */
+li a {
+  color: purple;
+  padding: 5px;
+  background-color: white;
+}
+
+.cart ion-icon {
+  vertical-align: bottom;
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+.cart a {
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+.image {
+  margin-right: 60px;
+  margin-left: 60px;
+  position: relative;
+  overflow: visible;
+}
+
+.text {
+  font-size: 20px;
+  padding-left: 10px;
+  margin-top: 0.5em;
+  margin-left: 3em;
+}
+a.add-cart {
+  margin: 30px 10px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.cart {
+  background-color: purple;
+  color: yellow;
+}
+
+/* Cart page css*/
+.products-container {
+  max-width: 1000px;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.product ion-icon {
+  font-size: 40px;
+  color: purple;
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.products {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.products img {
+  width: 75px;
+}
+
+.quantity ion-icon {
+  font-size: 40px;
+  color: purple;
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.product-header {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid limegreen;
+  margin: 0 auto;
+}
+.product-title {
+  width: 45%;
+}
+.price {
+  width: 10%;
+  display: flex;
+  align-items: center;
+}
+.quantity {
+  width: 35%;
+  display: flex;
+  align-items: center;
+}
+.total {
+  width: 15%;
+  display: flex;
+  align-items: center;
+}
+.product {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+.basketTotalContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: 4px solid limegreen;
+}
+.basketTotalTitle {
+  width: 25%;
+}
