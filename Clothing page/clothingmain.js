@@ -57,7 +57,7 @@ console.log(carts)
     },
     { 
         name:'Womens Shoes',
-        tag:"Woments Shoes",
+        tag:"Womens Shoes",
         price: 24,
         inCart: 0  
     },

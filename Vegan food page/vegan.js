@@ -45,7 +45,7 @@ console.log(carts)
     },
     { 
         name:'Spinach Tortellina',
-        tag:"Spinach tortellina",
+        tag:"Spinach tortellini",
         price: 8,
         inCart: 0 
     },
